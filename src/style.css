@@ -1,0 +1,506 @@
+@charset "UTF-8";
+/*FONT-FACE :: SET*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'CircularStd-Bold';
+  src: url("../src/assets/fonts/CircularStd-Bold.eot");
+  src: local("☺"), url("../src/assets/fonts/CircularStd-Bold.woff") format("woff"), url("../src/assets/fonts/CircularStd-Bold.ttf") format("truetype"), url("../src/assets/fonts/CircularStd-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/*FONT-FACE :: END*/
+.wrapper.amazing_mobile {
+  overflow: hidden;
+}
+
+.amazing_mobile html, .amazing_mobile body, .amazing_mobile div, .amazing_mobile span, .amazing_mobile applet, .amazing_mobile object, .amazing_mobile iframe, .amazing_mobile h1, .amazing_mobile h2, .amazing_mobile h3, .amazing_mobile h4, .amazing_mobile h5, .amazing_mobile h6, .amazing_mobile p,
+.amazing_mobile blockquote, .amazing_mobile pre, .amazing_mobile a, .amazing_mobile abbr, .amazing_mobile acronym, .amazing_mobile address, .amazing_mobile big, .amazing_mobile cite, .amazing_mobile code, .amazing_mobile del, .amazing_mobile dfn, .amazing_mobile em, .amazing_mobile img,
+.amazing_mobile ins, .amazing_mobile kbd, .amazing_mobile q, .amazing_mobile s, .amazing_mobile samp, .amazing_mobile small, .amazing_mobile strike, .amazing_mobile strong, .amazing_mobile sub, .amazing_mobile sup, .amazing_mobile tt, .amazing_mobile var, .amazing_mobile b, .amazing_mobile u, .amazing_mobile i, .amazing_mobile center,
+.amazing_mobile dl, .amazing_mobile dt, .amazing_mobile dd, .amazing_mobile ol, .amazing_mobile ul, .amazing_mobile li, .amazing_mobile fieldset, .amazing_mobile form, .amazing_mobile label, .amazing_mobile legend, .amazing_mobile table, .amazing_mobile caption, .amazing_mobile tbody,
+.amazing_mobile tfoot, .amazing_mobile thead, .amazing_mobile tr, .amazing_mobile th, .amazing_mobile td, .amazing_mobile article, .amazing_mobile aside, .amazing_mobile canvas, .amazing_mobile details, .amazing_mobile embed, .amazing_mobile figure,
+.amazing_mobile figcaption, .amazing_mobile footer, .amazing_mobile header, .amazing_mobile hgroup, .amazing_mobile menu, .amazing_mobile nav, .amazing_mobile output, .amazing_mobile ruby, .amazing_mobile section, .amazing_mobile summary,
+.amazing_mobile time, .amazing_mobile mark, .amazing_mobile audio, .amazing_mobile video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: inherit;
+}
+
+.amazing_mobile ul {
+  list-style: none;
+}
+
+.amazing_mobile a {
+  text-decoration: none !important;
+}
+
+.amazing_mobile * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.amazing_mobile body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.amazing_mobile h1, .amazing_mobile h2, .amazing_mobile h3, .amazing_mobile h4, .amazing_mobile h5, .amazing_mobile h6 {
+  font-family: 'CircularStd-Bold';
+}
+
+.amazing_mobile img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.amazing_mobile .clearfix::after,
+.amazing_mobile .clearfix::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.amazing_mobile .container {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+.amazing_mobile .hvr-shutter-in-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: #222129;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  color: #ffffff;
+  padding: 15px 45px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 30px;
+}
+
+.amazing_mobile .hvr-shutter-in-horizontal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+  background: #7e9edd;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  border-radius: 30px;
+}
+
+.amazing_mobile .hvr-shutter-in-horizontal:hover, .amazing_mobile .hvr-shutter-in-horizontal:focus, .amazing_mobile .hvr-shutter-in-horizontal:active {
+  color: white;
+}
+
+.amazing_mobile .hvr-shutter-in-horizontal:hover:before, .amazing_mobile .hvr-shutter-in-horizontal:focus:before, .amazing_mobile .hvr-shutter-in-horizontal:active:before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.amazing_mobile .header {
+  padding: 20px 40px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.amazing_mobile .header .navbar.navbar-expand-lg {
+  padding: 0;
+  width: 100%;
+}
+
+.amazing_mobile .header .btn-outline-success {
+  border-radius: 30px;
+  color: #222129;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'CircularStd-Bold';
+  line-height: 26px;
+  height: auto;
+  padding: 9px 28px 6px 28px;
+  margin-left: 11px;
+}
+
+.amazing_mobile .header .btn-outline-success.no_bg {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.amazing_mobile .header .btn-outline-success.sh {
+  -webkit-box-shadow: 3px 3px 4px 1px #00000036;
+          box-shadow: 3px 3px 4px 1px #00000036;
+}
+
+.amazing_mobile .hero_section_1 {
+  position: relative;
+  padding: 240px 0;
+}
+
+.amazing_mobile .hero_section_1 .contnet h1 {
+  color: #222129;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.amazing_mobile .hero_section_1 .contnet p {
+  color: #222129;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 30px;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.amazing_mobile .hero_section_1 .mobile_img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.amazing_mobile .hero_section_1 .mobile_img img {
+  max-width: 880px;
+  padding-top: 60px;
+  width: 100%;
+}
+
+.amazing_mobile .hero_section_1:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  background-image: url(../src/assets/images/layer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1085px;
+  width: 775px;
+  right: 0;
+  top: 0;
+}
+
+.amazing_mobile .hero_section_2 {
+  margin-bottom: 160px;
+}
+
+.amazing_mobile .hero_section_2 .container {
+  -webkit-box-shadow: 0px 1px 9px 1px #00000036;
+          box-shadow: 0px 1px 9px 1px #00000036;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 10px;
+  padding: 40px 30px 40px 30px;
+  max-width: 640px;
+}
+
+.amazing_mobile .hero_section_2 .container h4 {
+  font-size: 18px;
+  color: #222129;
+  margin-bottom: 30px;
+}
+
+.amazing_mobile .hero_section_2 .container ul li img {
+  width: 100%;
+  padding: 0 22px;
+}
+
+.amazing_mobile .hero_section_3 {
+  padding-bottom: 120px;
+}
+
+.amazing_mobile .hero_section_3 h2 {
+  font-size: 42px;
+  margin-bottom: 90px;
+}
+
+.amazing_mobile .hero_section_3 h2 img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.amazing_mobile .hero_section_3 .box_card {
+  padding: 0 20px;
+}
+
+.amazing_mobile .hero_section_3 .box_card .icon {
+  height: 124px;
+  width: 124px;
+  position: relative;
+  background-color: #ebf9f1;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.amazing_mobile .hero_section_3 .box_card .icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.amazing_mobile .hero_section_3 .box_card h4 {
+  font-size: 21px;
+  color: #222129;
+  margin-bottom: 12px;
+}
+
+.amazing_mobile .hero_section_3 .box_card p {
+  font-size: 17px;
+  color: #222129;
+  opacity: 0.6;
+  line-height: 26px;
+  margin-bottom: 35px;
+}
+
+.amazing_mobile .hero_section_4 {
+  padding-bottom: 140px;
+}
+
+.amazing_mobile .hero_section_4 .banner1 {
+  position: relative;
+}
+
+.amazing_mobile .hero_section_4 .banner1 .s1 {
+  max-width: 475px;
+  width: 100%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 9px 1px #00000036;
+          box-shadow: 0px 1px 9px 1px #00000036;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 10px;
+  height: 560px;
+  overflow: hidden;
+}
+.amazing_mobile .hero_section_4 .banner1 .s1 img,
+.amazing_mobile .hero_section_4 .banner1 .s2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.amazing_mobile .hero_section_4 .banner1 .s2 {
+  max-width: 275px;
+  width: 100%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 4px 14px 2px #00000026;
+          box-shadow: 1px 4px 14px 2px #00000026;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 10px;
+  height: 300px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  overflow: hidden;
+}
+
+.amazing_mobile .hero_section_4 .banner1 .s3 {
+  max-width: 275px;
+  width: 100%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 9px 14px 2px #00000029;
+          box-shadow: 1px 9px 14px 2px #00000029;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 10px;
+  /* height: 230px; */
+  height: 170px;
+  position: absolute;
+  right: 30px;
+  bottom: -30px;
+  overflow: hidden;
+}
+
+.amazing_mobile .hero_section_4 .content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.amazing_mobile .hero_section_4 .content h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.amazing_mobile .hero_section_4 .content h2 img {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.amazing_mobile .hero_section_4 .content p {
+  font-size: 17px;
+  color: #222129;
+  opacity: 0.6;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.amazing_mobile .hero_section_4 .content ul li {
+  font-size: 17px;
+  color: #222129;
+  opacity: 0.6;
+  line-height: 26px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 34px;
+}
+
+.amazing_mobile .hero_section_4 .content ul li:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../src/assets/images/list.png);
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+.amazing_mobile .hero_section_4 .content.p_20 {
+  padding-left: 60px;
+}
+
+.amazing_mobile .hero_section_4.odd .row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.amazing_mobile .hero_section_4.odd .row .banner1.p_20 {
+  padding-left: 60px;
+}
+
+.amazing_mobile .hero_section_4.odd .row .banner1.p_20 .s1 {
+  height: 475px;
+}
+
+.amazing_mobile .hero_section_4.odd .row .banner1.p_20 .s2 {
+  height: 300px;
+  max-width: 400px;
+  right: -50px;
+  bottom: 50px;
+  top: auto;
+}
+
+.amazing_mobile .hero_section_4.odd .row .content.p_60 {
+  padding-right: 90px;
+}
+
+.amazing_mobile .hero_section_4.even .row .s2 {
+  height: auto;
+  top: 30px;
+  bottom: 30px;
+}
+
+.amazing_mobile .footer {
+  position: relative;
+  padding: 580px 0;
+  padding-top: 230px;
+}
+
+.amazing_mobile .footer .banner {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  bottom: 0;
+}
+
+.amazing_mobile .footer .container {
+  position: relative;
+  z-index: 99;
+}
+
+.amazing_mobile .footer .container .content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.amazing_mobile .footer .container .content h3 {
+  font-size: 42px;
+  margin-bottom: 35px;
+  color: #222129;
+}
+
+.amazing_mobile .footer .container .content form .rel {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 420px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.amazing_mobile .footer .container .content form .rel img {
+  position: absolute;
+  top: 20px;
+  margin-left: 30px;
+}
+
+.amazing_mobile .footer .container .content form input {
+  padding: 15px 55px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 30px;
+  color: #222129;
+  border: 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 9px 1px #00000036;
+          box-shadow: 0px 1px 9px 1px #00000036;
+  margin-right: 10px;
+  max-width: 600px;
+  width: 100%;
+  line-height: 23px;
+}
+.amazing_mobile .social_media {
+   text-align: center;
+   margin-top: 160px;
+}
+.amazing_mobile .social_media .logo {
+  margin-bottom: 25px;
+}
+.amazing_mobile .social_media ul {
+  align-items: center;
+  justify-content: center;
+}
+.amazing_mobile .social_media ul li{
+  margin: 0 7px;
+}
+/*# sourceMappingURL=style.css.map */
